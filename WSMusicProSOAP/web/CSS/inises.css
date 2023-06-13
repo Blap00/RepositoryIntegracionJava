@@ -1,0 +1,47 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form input[type="text"]::placeholder,
+  form input[type="password"]::placeholder {
+    color: #6c757d;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  img[alt="MusicPro Logo"]{
+    aspect-ratio: 3/2;
+    width: 20%;
+    object-fit: contain;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  nav div a.navbar-brand{
+    margin-right: -12vw;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  main div {
+    margin-top: 11vw;
+  }
